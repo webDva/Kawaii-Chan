@@ -1,0 +1,21 @@
+{
+    "name": "kawaii-chan-bot",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "start debug": "node --inspect --debug-brk main.js",
+        "start debug no break": "node --inspect main.js"
+    },
+    "engines": {
+        "node": "6.9.4",
+        "npm": "5.6.0"
+    },
+    "author": "webdva",
+    "description": "waifuの化身のカワイイちゃん (Kawaii-chan, the Soul of Waifu)",
+    "contributors": [],
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2"
+    }
+}
